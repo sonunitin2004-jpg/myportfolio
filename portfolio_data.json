@@ -1,0 +1,290 @@
+{
+  "hero": {
+    "location_role": "Founder & Engineer · Chennai",
+    "name_html": "NITIN.M",
+    "tagline_html": "Architecting the future of <strong>hearing intelligence</strong> through AI, audio engineering & embedded systems.",
+    "celestial_labels": {
+      "top": "AI — ML",
+      "right": "AUDIO",
+      "bottom": "H.E.A.",
+      "left": "HEALTH"
+    }
+  },
+  "about": {
+    "title_html": "About the<em>Architect</em>",
+    "paragraphs": [
+      "I am the <strong>Founder & Director of H.E.A.Research Pvt Ltd</strong>, a health-tech startup developing next-generation smart hearing aids. My work sits at the intersection of artificial intelligence, audio signal processing, and embedded hardware.",
+      "Backed by <strong>IIT Madras HTIC, Sathyabama University, and Sri Ramachandra Medical College</strong> incubation programs, I translate research into real-world products — from DSP audio pipelines to quantum-safe encryption systems.",
+      "I am a Computer Science Engineering student at Sathyabama Institute (2022–2026), building at the edges of what's possible with AI, hardware, and code."
+    ],
+    "pillars": [
+      {
+        "num": "PROJECTS",
+        "val": "12+",
+        "title": "Built & Shipped"
+      },
+      {
+        "num": "FOUNDED",
+        "val": "2025",
+        "title": "H.E.A.Research"
+      },
+      {
+        "num": "AWARDS",
+        "val": "3×",
+        "title": "National Recognition"
+      },
+      {
+        "num": "INCUBATIONS",
+        "val": "3",
+        "title": "Premier Programs"
+      }
+    ]
+  },
+  "experience": [
+    {
+      "date_html": "Feb 2025<br>— Present",
+      "role": "Founder & Director",
+      "company": "H.E.A.Research Pvt Ltd",
+      "bullets": [
+        "Founded and independently developed a health-tech startup focused on smart hearing aid technologies.",
+        "Designed AI-powered hearing aids with intelligent noise cancellation and voice enhancement.",
+        "Built full ecosystem: mobile app integration, DSP audio processing, wearable hardware.",
+        "Executed startup strategy — manufacturing, clinical partnerships, commercialization.",
+        "Researched audio signal processing, AI-assisted hearing, embedded systems, quantum-safe tech."
+      ]
+    },
+    {
+      "date_html": "Jul – Oct<br>2024",
+      "role": "Data Analyst",
+      "company": "Heuristers Technology Solutions LLP",
+      "bullets": [
+        "Led data analysis and business intelligence interpretation.",
+        "Built Python-based analytics and automation workflows.",
+        "Gained experience in full-stack technologies and ML fundamentals."
+      ]
+    },
+    {
+      "date_html": "2022<br>— 2026",
+      "role": "B.E. Computer Science Engineering",
+      "company": "Sathyabama Institute of Science & Technology",
+      "bullets": [
+        "Focused on AI, embedded systems, and startup technology.",
+        "Active in incubation programs and national innovation competitions."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "category": "Languages",
+      "chips": [
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "Java",
+        "C",
+        "C++",
+        "SQL"
+      ]
+    },
+    {
+      "category": "Web & App",
+      "chips": [
+        "React.js",
+        "Node.js",
+        "PostgreSQL",
+        "Tailwind",
+        "Framer Motion",
+        "Electron",
+        "Supabase"
+      ]
+    },
+    {
+      "category": "AI / ML",
+      "chips": [
+        "Machine Learning",
+        "Deep Learning",
+        "Audio AI",
+        "Noise Cancellation",
+        "Speech Enhancement",
+        "Hugging Face"
+      ]
+    },
+    {
+      "category": "Hardware",
+      "chips": [
+        "PCB Design",
+        "DSP",
+        "BLE",
+        "IoT",
+        "Hearing Aid HW"
+      ]
+    },
+    {
+      "category": "Tools",
+      "chips": [
+        "Git & GitHub",
+        "REST APIs",
+        "Quantum-Safe Crypto",
+        "VS Code"
+      ]
+    }
+  ],
+  "projects": {
+    "intro": "From AI-powered hearing instruments to quantum-safe vaults — a collection of systems built at the boundary of research and engineering.",
+    "flagship": {
+      "category": "HealthTech · AI · Hardware",
+      "title": "AI-Based Smart Hearing Aid System",
+      "description": "Next-generation AI-powered hearing aid with intelligent noise cancellation, voice isolation, and adaptive hearing enhancement — controlled via a custom mobile application. The flagship project of H.E.A.Research Pvt Ltd.",
+      "tags": [
+        "Real-time Voice Enhancement",
+        "Noise Suppression AI",
+        "DSP Audio",
+        "BLE",
+        "React Native"
+      ],
+      "link": "https://github.com/sonunitin2004-jpg/myportfolio"
+    },
+    "list": [
+      {
+        "idx": "02",
+        "category": "Hardware · HealthTech",
+        "title": "Bone Conduction Hearing Aid",
+        "description": "Bone conduction hearing solution for improved sound delivery and accessibility for hearing-impaired users through alternative vibration pathways.",
+        "tags": [
+          "Embedded",
+          "PCB Design",
+          "DSP"
+        ],
+        "link": ""
+      },
+      {
+        "idx": "03",
+        "category": "Security · Quantum",
+        "title": "Quantum Vault X",
+        "description": "Futuristic encrypted file vault using quantum-safe encryption concepts for secure storage of documents, images, and sensitive files with stunning UI/UX.",
+        "tags": [
+          "Electron",
+          "Node.js",
+          "Crypto"
+        ],
+        "link": ""
+      },
+      {
+        "idx": "04",
+        "category": "AI · Voice",
+        "title": "AI Voice Assistant — Jarvis",
+        "description": "Advanced personal AI assistant with voice authentication, smart automation, remote access, file handling, and multi-device control.",
+        "tags": [
+          "Python",
+          "ML",
+          "Voice AI"
+        ],
+        "link": ""
+      },
+      {
+        "idx": "05",
+        "category": "Audio · Web",
+        "title": "Noise Cancellation Web App",
+        "description": "Web-based audio processing with spectral subtraction, Wiener filtering, harmonic-percussive separation, and deep learning noise reduction.",
+        "tags": [
+          "React.js",
+          "Python",
+          "Audio API"
+        ],
+        "link": ""
+      },
+      {
+        "idx": "06",
+        "category": "ML · Finance",
+        "title": "Credit Card Fraud Detection",
+        "description": "ML-based fraud detection identifying suspicious transaction patterns in real-time for banking security applications.",
+        "tags": [
+          "Python",
+          "Scikit-learn"
+        ],
+        "link": ""
+      },
+      {
+        "idx": "07",
+        "category": "AI · Creative",
+        "title": "Studio Ghibli AI Image Converter",
+        "description": "AI-powered image transformation converting photographs into Studio Ghibli-style artwork using neural style transfer.",
+        "tags": [
+          "Deep Learning",
+          "Hugging Face"
+        ],
+        "link": ""
+      },
+      {
+        "idx": "08",
+        "category": "App · Communication",
+        "title": "Video Calling Desktop App",
+        "description": "Private desktop video conferencing with secure rooms, chat support, file sharing, emoji, and multi-user communication.",
+        "tags": [
+          "Electron",
+          "WebRTC"
+        ],
+        "link": ""
+      },
+      {
+        "idx": "09",
+        "category": "Enterprise · Tool",
+        "title": "ERP System for Startups",
+        "description": "Lightweight ERP for startup operations including workflow management, productivity tools, and business tracking.",
+        "tags": [
+          "React",
+          "PostgreSQL",
+          "Supabase"
+        ],
+        "link": ""
+      }
+    ]
+  },
+  "achievements": [
+    {
+      "year": "2026",
+      "title": "Technnovation 2026 Award",
+      "subtitle": "Award Winner"
+    },
+    {
+      "year": "2026",
+      "title": "Excellence Award",
+      "subtitle": "Awardee · 2026"
+    },
+    {
+      "year": "2025",
+      "title": "Excellence Award",
+      "subtitle": "Awardee · 2025"
+    }
+  ],
+  "incubation": [
+    {
+      "glyph": "I",
+      "name": "HTIC — IIT Madras",
+      "type": "Pre-Incubation Program"
+    },
+    {
+      "glyph": "II",
+      "name": "Sathyabama University",
+      "type": "University Incubation"
+    },
+    {
+      "glyph": "III",
+      "name": "Sri Ramachandra Medical College",
+      "type": "Medical College Incubation"
+    }
+  ],
+  "contact": {
+    "headline_html": "Let's<em>Connect.</em>",
+    "sub": "Open to collaboration on hearing technology, AI-powered audio systems, and health-tech innovation.",
+    "email": "sonunitin2004@gmail.com",
+    "linkedin_url": "https://www.linkedin.com/in/nitin-m-7aa8441b8",
+    "linkedin_username": "nitin-m-7aa8441b8",
+    "location": "Chennai, Tamil Nadu, India",
+    "startup": "H.E.A.Research Pvt Ltd"
+  },
+  "footer": {
+    "logo": "N·M",
+    "copyright": "© 2025 · H.E.A.Research Pvt Ltd · Chennai"
+  }
+}

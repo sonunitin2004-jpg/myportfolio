@@ -611,12 +611,12 @@ footer {
 <!-- HERO -->
 <section id="hero">
   <div class="hero-left">
-    <div class="hero-roman">Founder & Engineer · Chennai</div>
+    <div class="hero-roman">{{hero.location_role}}</div>
     <h1 class="hero-name">
-      NITIN.M
+      {{hero.name_html}}
     </h1>
     <p class="hero-tagline">
-      Architecting the future of <strong>hearing intelligence</strong> through AI, audio engineering & embedded systems.
+      {{hero.tagline_html}}
     </p>
     <div class="hero-ctas">
       <a href="#projects" class="btn-gold">View Work</a>
@@ -629,10 +629,10 @@ footer {
       <div class="celestial-ring"></div>
       <div class="celestial-ring"></div>
       <div class="celestial-ring"></div>
-      <div class="c-label top">AI — ML</div>
-      <div class="c-label right">AUDIO</div>
-      <div class="c-label bottom">H.E.A.</div>
-      <div class="c-label left">HEALTH</div>
+      <div class="c-label top">{{hero.celestial_labels.top}}</div>
+      <div class="c-label right">{{hero.celestial_labels.right}}</div>
+      <div class="c-label bottom">{{hero.celestial_labels.bottom}}</div>
+      <div class="c-label left">{{hero.celestial_labels.left}}</div>
     </div>
   </div>
 </section>
@@ -645,39 +645,12 @@ footer {
     <div class="about-index sr">
       <div class="section-num">01</div>
       <div class="section-label">Profile</div>
-      <h2 class="section-title">About the<em>Architect</em></h2>
+      <h2 class="section-title">{{about.title_html}}</h2>
     </div>
     <div class="about-content sr">
-            <p>
-        I am the <strong>Founder & Director of H.E.A.Research Pvt Ltd</strong>, a health-tech startup developing next-generation smart hearing aids. My work sits at the intersection of artificial intelligence, audio signal processing, and embedded hardware.
-      </p>
-      <p>
-        Backed by <strong>IIT Madras HTIC, Sathyabama University, and Sri Ramachandra Medical College</strong> incubation programs, I translate research into real-world products — from DSP audio pipelines to quantum-safe encryption systems.
-      </p>
-      <p>
-        I am a Computer Science Engineering student at Sathyabama Institute (2022–2026), building at the edges of what's possible with AI, hardware, and code.
-      </p>
+      {{about.paragraphs_html}}
       <div class="about-pillars">
-              <div class="pillar">
-        <div class="pillar-num">PROJECTS</div>
-        <div class="pillar-val">12+</div>
-        <div class="pillar-title">Built & Shipped</div>
-      </div>
-      <div class="pillar">
-        <div class="pillar-num">FOUNDED</div>
-        <div class="pillar-val">2025</div>
-        <div class="pillar-title">H.E.A.Research</div>
-      </div>
-      <div class="pillar">
-        <div class="pillar-num">AWARDS</div>
-        <div class="pillar-val">3×</div>
-        <div class="pillar-title">National Recognition</div>
-      </div>
-      <div class="pillar">
-        <div class="pillar-num">INCUBATIONS</div>
-        <div class="pillar-val">3</div>
-        <div class="pillar-title">Premier Programs</div>
-      </div>
+        {{about.pillars_html}}
       </div>
     </div>
   </div>
@@ -694,43 +667,7 @@ footer {
       <h2 class="section-title">Mission<em>Log</em></h2>
     </div>
     <div class="exp-list sr">
-            <div class="exp-item">
-        <div class="exp-date">Feb 2025<br>— Present</div>
-        <div>
-          <div class="exp-role">Founder & Director</div>
-          <div class="exp-company">H.E.A.Research Pvt Ltd</div>
-          <ul class="exp-desc">
-            <li>Founded and independently developed a health-tech startup focused on smart hearing aid technologies.</li>
-            <li>Designed AI-powered hearing aids with intelligent noise cancellation and voice enhancement.</li>
-            <li>Built full ecosystem: mobile app integration, DSP audio processing, wearable hardware.</li>
-            <li>Executed startup strategy — manufacturing, clinical partnerships, commercialization.</li>
-            <li>Researched audio signal processing, AI-assisted hearing, embedded systems, quantum-safe tech.</li>
-          </ul>
-        </div>
-      </div>
-      <div class="exp-item">
-        <div class="exp-date">Jul – Oct<br>2024</div>
-        <div>
-          <div class="exp-role">Data Analyst</div>
-          <div class="exp-company">Heuristers Technology Solutions LLP</div>
-          <ul class="exp-desc">
-            <li>Led data analysis and business intelligence interpretation.</li>
-            <li>Built Python-based analytics and automation workflows.</li>
-            <li>Gained experience in full-stack technologies and ML fundamentals.</li>
-          </ul>
-        </div>
-      </div>
-      <div class="exp-item">
-        <div class="exp-date">2022<br>— 2026</div>
-        <div>
-          <div class="exp-role">B.E. Computer Science Engineering</div>
-          <div class="exp-company">Sathyabama Institute of Science & Technology</div>
-          <ul class="exp-desc">
-            <li>Focused on AI, embedded systems, and startup technology.</li>
-            <li>Active in incubation programs and national innovation competitions.</li>
-          </ul>
-        </div>
-      </div>
+      {{experience_html}}
     </div>
   </div>
 </section>
@@ -746,60 +683,7 @@ footer {
       <h2 class="section-title">Tech<em>Arsenal</em></h2>
     </div>
     <div class="skill-rows sr">
-            <div class="skill-row">
-        <div class="skill-cat-label">Languages</div>
-        <div class="skill-chips">
-          <span class="chip">Python</span>
-          <span class="chip">JavaScript</span>
-          <span class="chip">TypeScript</span>
-          <span class="chip">Java</span>
-          <span class="chip">C</span>
-          <span class="chip">C++</span>
-          <span class="chip">SQL</span>
-        </div>
-      </div>
-      <div class="skill-row">
-        <div class="skill-cat-label">Web & App</div>
-        <div class="skill-chips">
-          <span class="chip">React.js</span>
-          <span class="chip">Node.js</span>
-          <span class="chip">PostgreSQL</span>
-          <span class="chip">Tailwind</span>
-          <span class="chip">Framer Motion</span>
-          <span class="chip">Electron</span>
-          <span class="chip">Supabase</span>
-        </div>
-      </div>
-      <div class="skill-row">
-        <div class="skill-cat-label">AI / ML</div>
-        <div class="skill-chips">
-          <span class="chip">Machine Learning</span>
-          <span class="chip">Deep Learning</span>
-          <span class="chip">Audio AI</span>
-          <span class="chip">Noise Cancellation</span>
-          <span class="chip">Speech Enhancement</span>
-          <span class="chip">Hugging Face</span>
-        </div>
-      </div>
-      <div class="skill-row">
-        <div class="skill-cat-label">Hardware</div>
-        <div class="skill-chips">
-          <span class="chip">PCB Design</span>
-          <span class="chip">DSP</span>
-          <span class="chip">BLE</span>
-          <span class="chip">IoT</span>
-          <span class="chip">Hearing Aid HW</span>
-        </div>
-      </div>
-      <div class="skill-row">
-        <div class="skill-cat-label">Tools</div>
-        <div class="skill-chips">
-          <span class="chip">Git & GitHub</span>
-          <span class="chip">REST APIs</span>
-          <span class="chip">Quantum-Safe Crypto</span>
-          <span class="chip">VS Code</span>
-        </div>
-      </div>
+      {{skills_html}}
     </div>
   </div>
 </section>
@@ -815,136 +699,15 @@ footer {
       <h2 class="section-title">Built in<em>the Lab</em></h2>
     </div>
     <p class="projects-intro">
-      From AI-powered hearing instruments to quantum-safe vaults — a collection of systems built at the boundary of research and engineering.
+      {{projects.intro}}
     </p>
   </div>
 
   <!-- Featured -->
-    <a href="https://github.com/sonunitin2004-jpg/myportfolio" target="_blank" style="display: block; text-decoration: none; color: inherit;" class="project-featured sr">
-    <div class="project-cat">HealthTech · AI · Hardware</div>
-    <div class="project-title" style="font-family:'Playfair Display',serif;font-size:2rem;font-weight:900;color:var(--parchment);margin-bottom:1rem;">AI-Based Smart Hearing Aid System</div>
-    <p style="font-family:'Cormorant Garamond',serif;font-size:1.2rem;font-weight:300;color:rgba(245,237,224,0.6);line-height:1.9;max-width:700px;margin-bottom:1.5rem;">
-      Next-generation AI-powered hearing aid with intelligent noise cancellation, voice isolation, and adaptive hearing enhancement — controlled via a custom mobile application. The flagship project of H.E.A.Research Pvt Ltd.
-    </p>
-    <div style="display:flex;gap:.8rem;flex-wrap:wrap;">
-      <span class="chip">Real-time Voice Enhancement</span>
-      <span class="chip">Noise Suppression AI</span>
-      <span class="chip">DSP Audio</span>
-      <span class="chip">BLE</span>
-      <span class="chip">React Native</span>
-    </div>
-  </a>
+  {{projects.featured_html}}
 
   <div class="project-list sr">
-        <div  class="project-row">
-      <div class="project-idx">02</div>
-      <div>
-        <div class="project-cat">Hardware · HealthTech</div>
-        <div class="project-title">Bone Conduction Hearing Aid</div>
-      </div>
-      <div class="project-desc">Bone conduction hearing solution for improved sound delivery and accessibility for hearing-impaired users through alternative vibration pathways.</div>
-      <div class="project-tags">
-        <span class="p-tag">Embedded</span>
-        <span class="p-tag">PCB Design</span>
-        <span class="p-tag">DSP</span>
-      </div>
-      <div class="project-arrow">→</div>
-    </div>
-    <div  class="project-row">
-      <div class="project-idx">03</div>
-      <div>
-        <div class="project-cat">Security · Quantum</div>
-        <div class="project-title">Quantum Vault X</div>
-      </div>
-      <div class="project-desc">Futuristic encrypted file vault using quantum-safe encryption concepts for secure storage of documents, images, and sensitive files with stunning UI/UX.</div>
-      <div class="project-tags">
-        <span class="p-tag">Electron</span>
-        <span class="p-tag">Node.js</span>
-        <span class="p-tag">Crypto</span>
-      </div>
-      <div class="project-arrow">→</div>
-    </div>
-    <div  class="project-row">
-      <div class="project-idx">04</div>
-      <div>
-        <div class="project-cat">AI · Voice</div>
-        <div class="project-title">AI Voice Assistant — Jarvis</div>
-      </div>
-      <div class="project-desc">Advanced personal AI assistant with voice authentication, smart automation, remote access, file handling, and multi-device control.</div>
-      <div class="project-tags">
-        <span class="p-tag">Python</span>
-        <span class="p-tag">ML</span>
-        <span class="p-tag">Voice AI</span>
-      </div>
-      <div class="project-arrow">→</div>
-    </div>
-    <div  class="project-row">
-      <div class="project-idx">05</div>
-      <div>
-        <div class="project-cat">Audio · Web</div>
-        <div class="project-title">Noise Cancellation Web App</div>
-      </div>
-      <div class="project-desc">Web-based audio processing with spectral subtraction, Wiener filtering, harmonic-percussive separation, and deep learning noise reduction.</div>
-      <div class="project-tags">
-        <span class="p-tag">React.js</span>
-        <span class="p-tag">Python</span>
-        <span class="p-tag">Audio API</span>
-      </div>
-      <div class="project-arrow">→</div>
-    </div>
-    <div  class="project-row">
-      <div class="project-idx">06</div>
-      <div>
-        <div class="project-cat">ML · Finance</div>
-        <div class="project-title">Credit Card Fraud Detection</div>
-      </div>
-      <div class="project-desc">ML-based fraud detection identifying suspicious transaction patterns in real-time for banking security applications.</div>
-      <div class="project-tags">
-        <span class="p-tag">Python</span>
-        <span class="p-tag">Scikit-learn</span>
-      </div>
-      <div class="project-arrow">→</div>
-    </div>
-    <div  class="project-row">
-      <div class="project-idx">07</div>
-      <div>
-        <div class="project-cat">AI · Creative</div>
-        <div class="project-title">Studio Ghibli AI Image Converter</div>
-      </div>
-      <div class="project-desc">AI-powered image transformation converting photographs into Studio Ghibli-style artwork using neural style transfer.</div>
-      <div class="project-tags">
-        <span class="p-tag">Deep Learning</span>
-        <span class="p-tag">Hugging Face</span>
-      </div>
-      <div class="project-arrow">→</div>
-    </div>
-    <div  class="project-row">
-      <div class="project-idx">08</div>
-      <div>
-        <div class="project-cat">App · Communication</div>
-        <div class="project-title">Video Calling Desktop App</div>
-      </div>
-      <div class="project-desc">Private desktop video conferencing with secure rooms, chat support, file sharing, emoji, and multi-user communication.</div>
-      <div class="project-tags">
-        <span class="p-tag">Electron</span>
-        <span class="p-tag">WebRTC</span>
-      </div>
-      <div class="project-arrow">→</div>
-    </div>
-    <div  class="project-row">
-      <div class="project-idx">09</div>
-      <div>
-        <div class="project-cat">Enterprise · Tool</div>
-        <div class="project-title">ERP System for Startups</div>
-      </div>
-      <div class="project-desc">Lightweight ERP for startup operations including workflow management, productivity tools, and business tracking.</div>
-      <div class="project-tags">
-        <span class="p-tag">React</span>
-        <span class="p-tag">PostgreSQL</span>
-        <span class="p-tag">Supabase</span>
-      </div>
-      <div class="project-arrow">→</div>
-    </div>
+    {{projects.list_html}}
   </div>
 </section>
 
@@ -959,27 +722,7 @@ footer {
       <h2 class="section-title">Honours &<em>Awards</em></h2>
     </div>
     <div class="ach-list sr">
-            <div class="ach-item">
-        <div class="ach-year">2026</div>
-        <div class="ach-content">
-          <div class="ach-title">Technnovation 2026 Award</div>
-          <div class="ach-sub">Award Winner</div>
-        </div>
-      </div>
-      <div class="ach-item">
-        <div class="ach-year">2026</div>
-        <div class="ach-content">
-          <div class="ach-title">Excellence Award</div>
-          <div class="ach-sub">Awardee · 2026</div>
-        </div>
-      </div>
-      <div class="ach-item">
-        <div class="ach-year">2025</div>
-        <div class="ach-content">
-          <div class="ach-title">Excellence Award</div>
-          <div class="ach-sub">Awardee · 2025</div>
-        </div>
-      </div>
+      {{achievements_html}}
     </div>
   </div>
 </section>
@@ -993,27 +736,7 @@ footer {
       <h2 class="section-title">Incubation<em>Programs</em></h2>
     </div>
     <div class="inc-cards sr">
-            <div class="inc-card">
-        <div class="inc-glyph">I</div>
-        <div>
-          <div class="inc-name">HTIC — IIT Madras</div>
-          <div class="inc-type">Pre-Incubation Program</div>
-        </div>
-      </div>
-      <div class="inc-card">
-        <div class="inc-glyph">II</div>
-        <div>
-          <div class="inc-name">Sathyabama University</div>
-          <div class="inc-type">University Incubation</div>
-        </div>
-      </div>
-      <div class="inc-card">
-        <div class="inc-glyph">III</div>
-        <div>
-          <div class="inc-name">Sri Ramachandra Medical College</div>
-          <div class="inc-type">Medical College Incubation</div>
-        </div>
-      </div>
+      {{incubation_html}}
     </div>
   </div>
 </section>
@@ -1024,37 +747,18 @@ footer {
 <section id="contact">
   <div class="contact-grid">
     <div class="sr">
-      <h2 class="contact-headline">Let's<em>Connect.</em></h2>
-      <p class="contact-sub">Open to collaboration on hearing technology, AI-powered audio systems, and health-tech innovation.</p>
+      <h2 class="contact-headline">{{contact.headline_html}}</h2>
+      <p class="contact-sub">{{contact.sub}}</p>
     </div>
     <div class="contact-links sr">
-            <a href="mailto:sonunitin2004@gmail.com" class="contact-link">
-        <span class="cl-label">Email</span>
-        <span class="cl-val">sonunitin2004@gmail.com</span>
-        <span class="cl-arrow">→</span>
-      </a>
-      <a href="https://www.linkedin.com/in/nitin-m-7aa8441b8" target="_blank" class="contact-link">
-        <span class="cl-label">LinkedIn</span>
-        <span class="cl-val">nitin-m-7aa8441b8</span>
-        <span class="cl-arrow">→</span>
-      </a>
-      <a href="#" class="contact-link">
-        <span class="cl-label">Location</span>
-        <span class="cl-val">Chennai, Tamil Nadu, India</span>
-        <span class="cl-arrow">↓</span>
-      </a>
-      <a href="#" class="contact-link">
-        <span class="cl-label">Startup</span>
-        <span class="cl-val">H.E.A.Research Pvt Ltd</span>
-        <span class="cl-arrow">→</span>
-      </a>
+      {{contact.links_html}}
     </div>
   </div>
 </section>
 
 <footer>
-  <div class="footer-left">N·M</div>
-  <div class="footer-right">© 2025 · H.E.A.Research Pvt Ltd · Chennai</div>
+  <div class="footer-left">{{footer.logo}}</div>
+  <div class="footer-right">{{footer.copyright}}</div>
 </footer>
 
 <script>
