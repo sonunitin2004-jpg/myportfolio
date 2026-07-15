@@ -13,7 +13,7 @@
   "about": {
     "title_html": "About the<em>Architect</em>",
     "paragraphs": [
-      "I am the <strong>Founder & Director of H.E.A.Research Pvt Ltd</strong>, a health-tech startup developing next-generation smart hearing aids. My work sits at the intersection of artificial intelligence, audio signal processing, and embedded hardware.",
+      "I am the <strong>Founder & Director of H.E.A.Research Pvt Ltd</strong>, a health-tech startup developing next-generation smart hearing aids. My work sits at the intersection of artificial intelligence, cybersecurity, and AI Agents.",
       "Backed by <strong>IIT Madras HTIC, Sathyabama University, and Sri Ramachandra Medical College</strong> incubation programs, I translate research into real-world products — from DSP audio pipelines to quantum-safe encryption systems.",
       "I am a Computer Science Engineering student at Sathyabama Institute (2022–2026), building at the edges of what's possible with AI, hardware, and code."
     ],
@@ -26,7 +26,7 @@
       {
         "num": "FOUNDED",
         "val": "2025",
-        "title": "H.E.A.Research"
+        "title": "H.E.A.Research Pvt Ltd"
       },
       {
         "num": "AWARDS",
@@ -48,7 +48,7 @@
       "bullets": [
         "Founded and independently developed a health-tech startup focused on smart hearing aid technologies.",
         "Designed AI-powered hearing aids with intelligent noise cancellation and voice enhancement.",
-        "Built full ecosystem: mobile app integration, DSP audio processing, wearable hardware.",
+        "Building full ecosystem: mobile app integration, DSP audio processing, wearable hardware.",
         "Executed startup strategy — manufacturing, clinical partnerships, commercialization.",
         "Researched audio signal processing, AI-assisted hearing, embedded systems, quantum-safe tech."
       ]
@@ -110,16 +110,6 @@
       ]
     },
     {
-      "category": "Hardware",
-      "chips": [
-        "PCB Design",
-        "DSP",
-        "BLE",
-        "IoT",
-        "Hearing Aid HW"
-      ]
-    },
-    {
       "category": "Tools",
       "chips": [
         "Git & GitHub",
@@ -147,15 +137,15 @@
     "list": [
       {
         "idx": "02",
-        "category": "Hardware · HealthTech",
-        "title": "Bone Conduction Hearing Aid",
-        "description": "Bone conduction hearing solution for improved sound delivery and accessibility for hearing-impaired users through alternative vibration pathways.",
+        "category": "AI Agents with Quantum based encryption",
+        "title": "Quantum Prime X",
+        "description": "Quantum Vault X Prime is an AI-powered autonomous digital security platform that combines Post-Quantum Cryptography (PQC), multi-agent artificial intelligence, and real-time threat intelligence to protect sensitive digital assets before they become vulnerable.",
         "tags": [
-          "Embedded",
-          "PCB Design",
-          "DSP"
+          "AI Agents",
+          "Quantum Encryptions",
+          "PQC"
         ],
-        "link": ""
+        "link": "quantummxai.vercel.app"
       },
       {
         "idx": "03",
@@ -172,7 +162,7 @@
       {
         "idx": "04",
         "category": "AI · Voice",
-        "title": "AI Voice Assistant — Jarvis",
+        "title": "AI Voice Assistant — Esha",
         "description": "Advanced personal AI assistant with voice authentication, smart automation, remote access, file handling, and multi-device control.",
         "tags": [
           "Python",
@@ -183,15 +173,15 @@
       },
       {
         "idx": "05",
-        "category": "Audio · Web",
-        "title": "Noise Cancellation Web App",
-        "description": "Web-based audio processing with spectral subtraction, Wiener filtering, harmonic-percussive separation, and deep learning noise reduction.",
+        "category": "Operating System.AI Agents",
+        "title": "Vincent OS",
+        "description": "Built around a multi-agent AI architecture, Vincent OS coordinates specialized AI agents that collaborate to execute tasks such as coding, research, content creation, scheduling, cybersecurity monitoring, file management, and business operations. The system understands context across applications, allowing users to focus on outcomes rather than software.\nSecurity is a core principle of Vincent OS. It incorporates post-quantum cryptography, privacy-first processing, and intelligent threat detection to protect user data while enabling secure AI automation. Every interaction is designed to be transparent, permission-based, and under the user's control.",
         "tags": [
           "React.js",
           "Python",
-          "Audio API"
+          "AI API"
         ],
-        "link": ""
+        "link": "vincent-os-umber.vercel.app"
       },
       {
         "idx": "06",
@@ -206,37 +196,15 @@
       },
       {
         "idx": "07",
-        "category": "AI · Creative",
-        "title": "Studio Ghibli AI Image Converter",
-        "description": "AI-powered image transformation converting photographs into Studio Ghibli-style artwork using neural style transfer.",
-        "tags": [
-          "Deep Learning",
-          "Hugging Face"
-        ],
-        "link": ""
-      },
-      {
-        "idx": "08",
-        "category": "App · Communication",
-        "title": "Video Calling Desktop App",
-        "description": "Private desktop video conferencing with secure rooms, chat support, file sharing, emoji, and multi-user communication.",
-        "tags": [
-          "Electron",
-          "WebRTC"
-        ],
-        "link": ""
-      },
-      {
-        "idx": "09",
         "category": "Enterprise · Tool",
-        "title": "ERP System for Startups",
-        "description": "Lightweight ERP for startup operations including workflow management, productivity tools, and business tracking.",
+        "title": "HearOS",
+        "description": "HearOS is a premium, feature-rich executive dashboard custom-built for H.E.A.Research Pvt Ltd (founded by Nitin M). The platform serves as a specialized operational workspace and strategic intelligence layer to accelerate the development, validation, and fundraising process for next-generation, AI-powered hearing aid solutions.",
         "tags": [
           "React",
           "PostgreSQL",
-          "Supabase"
+          "AI API"
         ],
-        "link": ""
+        "link": "hearos-dashboard.vercel.app"
       }
     ]
   },
@@ -272,6 +240,11 @@
       "glyph": "III",
       "name": "Sri Ramachandra Medical College",
       "type": "Medical College Incubation"
+    },
+    {
+      "glyph": "IV",
+      "name": "River Ventures",
+      "type": "Venture Partner"
     }
   ],
   "contact": {
