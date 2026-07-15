@@ -181,7 +181,7 @@
           "Python",
           "AI API"
         ],
-        "link": "vincent-os-umber.vercel.app"
+        "link": "https://vincent-os-umber.vercel.app/"
       },
       {
         "idx": "06",
@@ -204,7 +204,7 @@
           "PostgreSQL",
           "AI API"
         ],
-        "link": "hearos-dashboard.vercel.app"
+        "link": "https://hearos-dashboard.vercel.app/"
       }
     ]
   },
