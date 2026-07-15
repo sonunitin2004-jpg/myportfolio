@@ -1,13 +1,13 @@
 {
   "hero": {
-    "location_role": "Founder & Engineer · Chennai",
+    "location_role": "Founder & CEO ",
     "name_html": "NITIN.M",
-    "tagline_html": "Architecting the future of <strong>hearing intelligence</strong> through AI, audio engineering & embedded systems.",
+    "tagline_html": "Architecting the future of <strong>hearing intelligence</strong> through AI, cybersecurity & AI Agents.",
     "celestial_labels": {
       "top": "AI — ML",
       "right": "AUDIO",
-      "bottom": "H.E.A.",
-      "left": "HEALTH"
+      "bottom": "H.E.A.Research Pvt Ltd",
+      "left": "HealthTech"
     }
   },
   "about": {
